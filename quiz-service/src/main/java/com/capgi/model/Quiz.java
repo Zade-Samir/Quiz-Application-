@@ -26,27 +26,20 @@ public class Quiz {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	private String title;
 	private String description;
 	private Boolean isPublished = false;
 	private String createdBy;
-	
+
+	// New fields for enhanced quiz features
+	private String category; // Java, React, Spring, Security, Database
+	private Integer duration; // Duration in minutes
+	private Integer passingScore; // Passing score percentage
+	private String difficulty; // Beginner, Intermediate, Advanced
+
 	@OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL, orphanRemoval = true)
 	@JsonManagedReference
 	private List<Question> questions = new ArrayList<>();
-	
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

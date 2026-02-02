@@ -959,3 +959,872 @@ Identify and stop the process that's listening on port 8081 or configure this ap
 2026-02-02 16:29:24 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
 2026-02-02 16:29:24 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
 2026-02-02 16:29:53 - Resolving eureka endpoints via configuration
+2026-02-02 19:46:15 - Starting QuizServiceApplication using Java 25 with PID 168 (/Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service/target/classes started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 19:46:15 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 19:46:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 19:46:16 - Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2026-02-02 19:46:16 - BeanFactory id=f57ecb63-bea8-352f-aa1a-3fa5e586581a
+2026-02-02 19:46:16 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 19:46:16 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00000c0001314330] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 19:46:16 - Tomcat initialized with port 8081 (http)
+2026-02-02 19:46:16 - Starting service [Tomcat]
+2026-02-02 19:46:16 - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-02 19:46:16 - Initializing Spring embedded WebApplicationContext
+2026-02-02 19:46:16 - Root WebApplicationContext: initialization completed in 615 ms
+2026-02-02 19:46:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 19:46:16 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 19:46:16 - HHH000026: Second-level cache disabled
+2026-02-02 19:46:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 19:46:16 - quiz_db - Starting...
+2026-02-02 19:46:16 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a425cf5
+2026-02-02 19:46:16 - quiz_db - Start completed.
+2026-02-02 19:46:16 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 19:46:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 19:46:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 19:46:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 19:46:17 - 
+
+Using generated security password: bb11deb0-8301-4d7d-a072-e488ffada110
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 19:46:17 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b74a4d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63df2eb8, org.springframework.security.web.context.SecurityContextHolderFilter@10c67c1c, org.springframework.security.web.header.HeaderWriterFilter@2c4e63b3, org.springframework.web.filter.CorsFilter@49c72fb7, org.springframework.security.web.authentication.logout.LogoutFilter@f5a680, com.capgi.filter.JwtAuthFilter@629a9f26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f7f9d3f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62966c9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@565983f3, org.springframework.security.web.session.SessionManagementFilter@349686e8, org.springframework.security.web.access.ExceptionTranslationFilter@4cbd17b3, org.springframework.security.web.access.intercept.AuthorizationFilter@5e572b08]
+2026-02-02 19:46:17 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 19:46:17 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 19:46:17 - Setting initial instance status as: STARTING
+2026-02-02 19:46:17 - Initializing Eureka in region us-east-1
+2026-02-02 19:46:17 - Resolving eureka endpoints via configuration
+2026-02-02 19:46:17 - Disable delta property : false
+2026-02-02 19:46:17 - Single vip registry refresh property : null
+2026-02-02 19:46:17 - Force full registry fetch : false
+2026-02-02 19:46:17 - Application is null : false
+2026-02-02 19:46:17 - Registered Applications size is zero : true
+2026-02-02 19:46:17 - Application version is -1: true
+2026-02-02 19:46:17 - Getting all instance registry info from the eureka server
+2026-02-02 19:46:17 - The response status is 200
+2026-02-02 19:46:17 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 19:46:17 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 19:46:17 - Discovery Client initialized at timestamp 1770041777960 with initial instances count: 4
+2026-02-02 19:46:17 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 19:46:17 - Saw local status change event StatusChangeEvent [timestamp=1770041777961, current=UP, previous=STARTING]
+2026-02-02 19:46:17 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 19:46:17 - Tomcat started on port 8081 (http) with context path ''
+2026-02-02 19:46:17 - Updating port to 8081
+2026-02-02 19:46:17 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 19:46:17 - Started QuizServiceApplication in 2.25 seconds (process running for 2.388)
+2026-02-02 19:51:17 - Resolving eureka endpoints via configuration
+2026-02-02 19:56:17 - Resolving eureka endpoints via configuration
+2026-02-02 20:01:17 - Resolving eureka endpoints via configuration
+2026-02-02 20:03:09 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:03:09 - Saw local status change event StatusChangeEvent [timestamp=1770042789211, current=DOWN, previous=UP]
+2026-02-02 20:03:09 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:03:09 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:03:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:03:20 - quiz_db - Shutdown initiated...
+2026-02-02 20:03:20 - quiz_db - Shutdown completed.
+2026-02-02 20:03:20 - Shutting down DiscoveryClient ...
+2026-02-02 20:03:21 - Starting QuizServiceApplication using Java 25 with PID 1877 (/Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service/target/classes started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:03:21 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:03:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:03:22 - Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:03:22 - BeanFactory id=ce107f50-767c-3e08-b533-6879cc3c2d89
+2026-02-02 20:03:22 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:03:22 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00007fc001329a88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:03:22 - Tomcat initialized with port 8081 (http)
+2026-02-02 20:03:22 - Starting service [Tomcat]
+2026-02-02 20:03:22 - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-02 20:03:22 - Initializing Spring embedded WebApplicationContext
+2026-02-02 20:03:22 - Root WebApplicationContext: initialization completed in 623 ms
+2026-02-02 20:03:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:03:22 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:03:22 - HHH000026: Second-level cache disabled
+2026-02-02 20:03:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:03:22 - quiz_db - Starting...
+2026-02-02 20:03:22 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@56cd5d76
+2026-02-02 20:03:22 - quiz_db - Start completed.
+2026-02-02 20:03:22 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:03:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:03:23 - Unregistering ...
+2026-02-02 20:03:23 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:03:23 - Completed shut down of DiscoveryClient
+2026-02-02 20:03:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:03:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:03:23 - 
+
+Using generated security password: 20d585e4-1ef5-4744-bf7a-abd3a8f3440c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:03:23 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@fefd4a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d2693f, org.springframework.security.web.context.SecurityContextHolderFilter@29390110, org.springframework.security.web.header.HeaderWriterFilter@409df37d, org.springframework.web.filter.CorsFilter@352a8183, org.springframework.security.web.authentication.logout.LogoutFilter@568cbf8d, com.capgi.filter.JwtAuthFilter@6097fca9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@496e2bdd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17e725fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@361d169a, org.springframework.security.web.session.SessionManagementFilter@c2ddfeb, org.springframework.security.web.access.ExceptionTranslationFilter@261c5d1f, org.springframework.security.web.access.intercept.AuthorizationFilter@13f358f8]
+2026-02-02 20:03:23 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:03:23 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:03:23 - Setting initial instance status as: STARTING
+2026-02-02 20:03:23 - Initializing Eureka in region us-east-1
+2026-02-02 20:03:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:03:23 - Disable delta property : false
+2026-02-02 20:03:23 - Single vip registry refresh property : null
+2026-02-02 20:03:23 - Force full registry fetch : false
+2026-02-02 20:03:23 - Application is null : false
+2026-02-02 20:03:23 - Registered Applications size is zero : true
+2026-02-02 20:03:23 - Application version is -1: true
+2026-02-02 20:03:23 - Getting all instance registry info from the eureka server
+2026-02-02 20:03:24 - The response status is 200
+2026-02-02 20:03:24 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:03:24 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:03:24 - Discovery Client initialized at timestamp 1770042804005 with initial instances count: 5
+2026-02-02 20:03:24 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:03:24 - Saw local status change event StatusChangeEvent [timestamp=1770042804007, current=UP, previous=STARTING]
+2026-02-02 20:03:24 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:03:24 - Tomcat started on port 8081 (http) with context path ''
+2026-02-02 20:03:24 - Updating port to 8081
+2026-02-02 20:03:24 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:03:24 - Started QuizServiceApplication in 2.253 seconds (process running for 2.384)
+2026-02-02 20:08:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:12:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-02 20:12:53 - Initializing Servlet 'dispatcherServlet'
+2026-02-02 20:12:53 - Completed initialization in 2 ms
+2026-02-02 20:12:54 - Init duration for springdoc-openapi is: 137 ms
+2026-02-02 20:13:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:18:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:23:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:24:56 - Init duration for springdoc-openapi is: 102 ms
+2026-02-02 20:28:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:33:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:37:46 - Starting QuizServiceApplicationTests using Java 25 with PID 7046 (started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:37:46 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:37:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:37:47 - Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:37:47 - BeanFactory id=6e1ef647-7fdd-3216-8557-c0c4db363480
+2026-02-02 20:37:47 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:37:47 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00000700013a9d10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:37:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:37:47 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:37:47 - HHH000026: Second-level cache disabled
+2026-02-02 20:37:47 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:37:47 - quiz_db - Starting...
+2026-02-02 20:37:47 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e7a9db7
+2026-02-02 20:37:47 - quiz_db - Start completed.
+2026-02-02 20:37:47 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:37:48 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:37:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:37:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:37:48 - 
+
+Using generated security password: 523508f7-71dd-4cbc-99ac-668bd53d54bb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:37:48 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70d24586, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58e9e852, org.springframework.security.web.context.SecurityContextHolderFilter@668ea404, org.springframework.security.web.header.HeaderWriterFilter@125ed27, org.springframework.web.filter.CorsFilter@52238861, org.springframework.security.web.authentication.logout.LogoutFilter@318beab4, com.capgi.filter.JwtAuthFilter@2da0770, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62109320, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d644b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@279e4506, org.springframework.security.web.session.SessionManagementFilter@602d5417, org.springframework.security.web.access.ExceptionTranslationFilter@374712f8, org.springframework.security.web.access.intercept.AuthorizationFilter@2a10407e]
+2026-02-02 20:37:48 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:37:48 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:37:48 - Setting initial instance status as: STARTING
+2026-02-02 20:37:48 - Initializing Eureka in region us-east-1
+2026-02-02 20:37:48 - Resolving eureka endpoints via configuration
+2026-02-02 20:37:48 - Disable delta property : false
+2026-02-02 20:37:48 - Single vip registry refresh property : null
+2026-02-02 20:37:48 - Force full registry fetch : false
+2026-02-02 20:37:48 - Application is null : false
+2026-02-02 20:37:48 - Registered Applications size is zero : true
+2026-02-02 20:37:48 - Application version is -1: true
+2026-02-02 20:37:48 - Getting all instance registry info from the eureka server
+2026-02-02 20:37:49 - The response status is 200
+2026-02-02 20:37:49 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:37:49 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:37:49 - Discovery Client initialized at timestamp 1770044869062 with initial instances count: 5
+2026-02-02 20:37:49 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:37:49 - Saw local status change event StatusChangeEvent [timestamp=1770044869064, current=UP, previous=STARTING]
+2026-02-02 20:37:49 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:37:49 - Started QuizServiceApplicationTests in 2.217 seconds (process running for 2.617)
+2026-02-02 20:37:49 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:37:49 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:37:49 - Saw local status change event StatusChangeEvent [timestamp=1770044869496, current=DOWN, previous=UP]
+2026-02-02 20:37:49 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:37:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:37:49 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:37:49 - quiz_db - Shutdown initiated...
+2026-02-02 20:37:49 - quiz_db - Shutdown completed.
+2026-02-02 20:37:49 - Shutting down DiscoveryClient ...
+2026-02-02 20:37:52 - Unregistering ...
+2026-02-02 20:37:52 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:37:52 - Completed shut down of DiscoveryClient
+2026-02-02 20:37:54 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - Re-registering apps/QUIZ-SERVICE
+2026-02-02 20:37:54 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:37:54 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:38:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:43:23 - Resolving eureka endpoints via configuration
+2026-02-02 20:48:18 - Starting QuizServiceApplicationTests using Java 25 with PID 10021 (started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:48:18 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:48:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:48:18 - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:48:18 - BeanFactory id=6e1ef647-7fdd-3216-8557-c0c4db363480
+2026-02-02 20:48:18 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:48:18 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x0000007e013aaad8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:48:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:48:18 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:48:18 - HHH000026: Second-level cache disabled
+2026-02-02 20:48:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:48:18 - quiz_db - Starting...
+2026-02-02 20:48:18 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@9147ba2
+2026-02-02 20:48:18 - quiz_db - Start completed.
+2026-02-02 20:48:19 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:48:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:48:19 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:48:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:48:19 - 
+
+Using generated security password: fe985f4d-3cdd-47df-bdcb-b88d4d29217a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:48:19 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d619bcb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57f83dc7, org.springframework.security.web.context.SecurityContextHolderFilter@6a4f15bc, org.springframework.security.web.header.HeaderWriterFilter@602d5417, org.springframework.web.filter.CorsFilter@75937998, org.springframework.security.web.authentication.logout.LogoutFilter@6abbdcde, com.capgi.filter.JwtAuthFilter@1e366f0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6421e9e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@552b7481, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@696d28ee, org.springframework.security.web.session.SessionManagementFilter@542b27af, org.springframework.security.web.access.ExceptionTranslationFilter@593db293, org.springframework.security.web.access.intercept.AuthorizationFilter@38624a3a]
+2026-02-02 20:48:19 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:48:19 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:48:20 - Setting initial instance status as: STARTING
+2026-02-02 20:48:20 - Initializing Eureka in region us-east-1
+2026-02-02 20:48:20 - Resolving eureka endpoints via configuration
+2026-02-02 20:48:20 - Disable delta property : false
+2026-02-02 20:48:20 - Single vip registry refresh property : null
+2026-02-02 20:48:20 - Force full registry fetch : false
+2026-02-02 20:48:20 - Application is null : false
+2026-02-02 20:48:20 - Registered Applications size is zero : true
+2026-02-02 20:48:20 - Application version is -1: true
+2026-02-02 20:48:20 - Getting all instance registry info from the eureka server
+2026-02-02 20:48:20 - The response status is 200
+2026-02-02 20:48:20 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:48:20 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:48:20 - Discovery Client initialized at timestamp 1770045500209 with initial instances count: 5
+2026-02-02 20:48:20 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:48:20 - Saw local status change event StatusChangeEvent [timestamp=1770045500211, current=UP, previous=STARTING]
+2026-02-02 20:48:20 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:48:20 - Started QuizServiceApplicationTests in 2.231 seconds (process running for 2.644)
+2026-02-02 20:48:20 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:48:20 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:48:20 - Saw local status change event StatusChangeEvent [timestamp=1770045500740, current=DOWN, previous=UP]
+2026-02-02 20:48:20 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:48:20 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:48:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:48:20 - quiz_db - Shutdown initiated...
+2026-02-02 20:48:20 - quiz_db - Shutdown completed.
+2026-02-02 20:48:20 - Shutting down DiscoveryClient ...
+2026-02-02 20:48:23 - Unregistering ...
+2026-02-02 20:48:23 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:48:23 - Completed shut down of DiscoveryClient
+2026-02-02 20:48:24 - Resolving eureka endpoints via configuration
+2026-02-02 20:48:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - Re-registering apps/QUIZ-SERVICE
+2026-02-02 20:48:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:48:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:51:25 - Starting QuizServiceApplicationTests using Java 25 with PID 10377 (started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:51:25 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:51:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:51:26 - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:51:26 - BeanFactory id=6e1ef647-7fdd-3216-8557-c0c4db363480
+2026-02-02 20:51:26 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:51:26 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00000fc0013a71f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:51:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:51:26 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:51:26 - HHH000026: Second-level cache disabled
+2026-02-02 20:51:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:51:26 - quiz_db - Starting...
+2026-02-02 20:51:26 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@36a58466
+2026-02-02 20:51:26 - quiz_db - Start completed.
+2026-02-02 20:51:26 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:51:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:51:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:51:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:51:27 - 
+
+Using generated security password: 7e15f0cb-4f02-4511-8cca-4910cebdc207
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:51:27 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@279e4506, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4582da06, org.springframework.security.web.context.SecurityContextHolderFilter@34d644b5, org.springframework.security.web.header.HeaderWriterFilter@43600de0, org.springframework.web.filter.CorsFilter@523e019c, org.springframework.security.web.authentication.logout.LogoutFilter@38447073, com.capgi.filter.JwtAuthFilter@647b3fd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50915d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63661fc7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c10eb3a, org.springframework.security.web.session.SessionManagementFilter@668ea404, org.springframework.security.web.access.ExceptionTranslationFilter@2dedde74, org.springframework.security.web.access.intercept.AuthorizationFilter@70d24586]
+2026-02-02 20:51:27 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:51:27 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:51:27 - Setting initial instance status as: STARTING
+2026-02-02 20:51:27 - Initializing Eureka in region us-east-1
+2026-02-02 20:51:27 - Resolving eureka endpoints via configuration
+2026-02-02 20:51:27 - Disable delta property : false
+2026-02-02 20:51:27 - Single vip registry refresh property : null
+2026-02-02 20:51:27 - Force full registry fetch : false
+2026-02-02 20:51:27 - Application is null : false
+2026-02-02 20:51:27 - Registered Applications size is zero : true
+2026-02-02 20:51:27 - Application version is -1: true
+2026-02-02 20:51:27 - Getting all instance registry info from the eureka server
+2026-02-02 20:51:27 - The response status is 200
+2026-02-02 20:51:27 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:51:27 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:51:27 - Discovery Client initialized at timestamp 1770045687695 with initial instances count: 5
+2026-02-02 20:51:27 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:51:27 - Saw local status change event StatusChangeEvent [timestamp=1770045687697, current=UP, previous=STARTING]
+2026-02-02 20:51:27 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:51:27 - Started QuizServiceApplicationTests in 2.209 seconds (process running for 2.562)
+2026-02-02 20:51:27 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:51:28 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:51:28 - Initializing Servlet ''
+2026-02-02 20:51:28 - Completed initialization in 0 ms
+2026-02-02 20:51:28 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: (was java.lang.UnsupportedOperationException)]
+2026-02-02 20:51:28 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:51:28 - Initializing Servlet ''
+2026-02-02 20:51:28 - Completed initialization in 0 ms
+2026-02-02 20:51:28 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:51:28 - Initializing Servlet ''
+2026-02-02 20:51:28 - Completed initialization in 0 ms
+2026-02-02 20:51:28 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:51:28 - Initializing Servlet ''
+2026-02-02 20:51:28 - Completed initialization in 0 ms
+2026-02-02 20:51:28 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:51:28 - Saw local status change event StatusChangeEvent [timestamp=1770045688215, current=DOWN, previous=UP]
+2026-02-02 20:51:28 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:51:28 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:51:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:51:28 - quiz_db - Shutdown initiated...
+2026-02-02 20:51:28 - quiz_db - Shutdown completed.
+2026-02-02 20:51:28 - Shutting down DiscoveryClient ...
+2026-02-02 20:51:31 - Unregistering ...
+2026-02-02 20:51:31 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:51:31 - Completed shut down of DiscoveryClient
+2026-02-02 20:51:55 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - Re-registering apps/QUIZ-SERVICE
+2026-02-02 20:51:55 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:51:55 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:52:05 - Starting QuizServiceApplicationTests using Java 25 with PID 10654 (started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:52:05 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:52:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:52:05 - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:52:05 - BeanFactory id=6e1ef647-7fdd-3216-8557-c0c4db363480
+2026-02-02 20:52:05 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:52:05 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00003ff8013a9180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:05 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:52:06 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:52:06 - HHH000026: Second-level cache disabled
+2026-02-02 20:52:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:52:06 - quiz_db - Starting...
+2026-02-02 20:52:06 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@75805562
+2026-02-02 20:52:06 - quiz_db - Start completed.
+2026-02-02 20:52:06 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:52:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:52:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:52:06 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:52:06 - 
+
+Using generated security password: 2ab6e7e8-ad05-42e7-a406-edf18ca7a6d0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:52:07 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2524f9bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e2c8622, org.springframework.security.web.context.SecurityContextHolderFilter@6a495d88, org.springframework.security.web.header.HeaderWriterFilter@19412eef, org.springframework.web.filter.CorsFilter@4b02dc4e, org.springframework.security.web.authentication.logout.LogoutFilter@1c10eb3a, com.capgi.filter.JwtAuthFilter@7388486e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51f31fad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7976d382, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b67b359, org.springframework.security.web.session.SessionManagementFilter@7bca98d5, org.springframework.security.web.access.ExceptionTranslationFilter@63661fc7, org.springframework.security.web.access.intercept.AuthorizationFilter@62d72091]
+2026-02-02 20:52:07 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:52:07 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:52:07 - Setting initial instance status as: STARTING
+2026-02-02 20:52:07 - Initializing Eureka in region us-east-1
+2026-02-02 20:52:07 - Resolving eureka endpoints via configuration
+2026-02-02 20:52:07 - Disable delta property : false
+2026-02-02 20:52:07 - Single vip registry refresh property : null
+2026-02-02 20:52:07 - Force full registry fetch : false
+2026-02-02 20:52:07 - Application is null : false
+2026-02-02 20:52:07 - Registered Applications size is zero : true
+2026-02-02 20:52:07 - Application version is -1: true
+2026-02-02 20:52:07 - Getting all instance registry info from the eureka server
+2026-02-02 20:52:07 - The response status is 200
+2026-02-02 20:52:07 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:52:07 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:52:07 - Discovery Client initialized at timestamp 1770045727380 with initial instances count: 4
+2026-02-02 20:52:07 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:52:07 - Saw local status change event StatusChangeEvent [timestamp=1770045727382, current=UP, previous=STARTING]
+2026-02-02 20:52:07 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:52:07 - Started QuizServiceApplicationTests in 2.069 seconds (process running for 2.46)
+2026-02-02 20:52:07 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:52:07 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:52:07 - Saw local status change event StatusChangeEvent [timestamp=1770045727816, current=DOWN, previous=UP]
+2026-02-02 20:52:07 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:52:07 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:52:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:52:07 - quiz_db - Shutdown initiated...
+2026-02-02 20:52:07 - quiz_db - Shutdown completed.
+2026-02-02 20:52:07 - Shutting down DiscoveryClient ...
+2026-02-02 20:52:10 - Unregistering ...
+2026-02-02 20:52:10 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:52:10 - Completed shut down of DiscoveryClient
+2026-02-02 20:52:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - Re-registering apps/QUIZ-SERVICE
+2026-02-02 20:52:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:52:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:52:25 - Starting QuizServiceApplicationTests using Java 25 with PID 10895 (started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:52:25 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:52:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:52:25 - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:52:25 - BeanFactory id=6e1ef647-7fdd-3216-8557-c0c4db363480
+2026-02-02 20:52:25 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:52:25 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x000007ff013a8000] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:52:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:52:25 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:52:25 - HHH000026: Second-level cache disabled
+2026-02-02 20:52:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:52:25 - quiz_db - Starting...
+2026-02-02 20:52:26 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fedf908
+2026-02-02 20:52:26 - quiz_db - Start completed.
+2026-02-02 20:52:26 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:52:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:52:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:52:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:52:26 - 
+
+Using generated security password: 80a2991d-0901-4110-b3d3-d37e1ee4236b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:52:26 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b02dc4e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b67b359, org.springframework.security.web.context.SecurityContextHolderFilter@51f31fad, org.springframework.security.web.header.HeaderWriterFilter@7e092ca, org.springframework.web.filter.CorsFilter@98c4a8b, org.springframework.security.web.authentication.logout.LogoutFilter@1af29a19, com.capgi.filter.JwtAuthFilter@136a4800, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59f36439, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4feea86f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@130bd00e, org.springframework.security.web.session.SessionManagementFilter@3d72abea, org.springframework.security.web.access.ExceptionTranslationFilter@19412eef, org.springframework.security.web.access.intercept.AuthorizationFilter@3b863b4]
+2026-02-02 20:52:26 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:52:26 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:52:26 - Setting initial instance status as: STARTING
+2026-02-02 20:52:27 - Initializing Eureka in region us-east-1
+2026-02-02 20:52:27 - Resolving eureka endpoints via configuration
+2026-02-02 20:52:27 - Disable delta property : false
+2026-02-02 20:52:27 - Single vip registry refresh property : null
+2026-02-02 20:52:27 - Force full registry fetch : false
+2026-02-02 20:52:27 - Application is null : false
+2026-02-02 20:52:27 - Registered Applications size is zero : true
+2026-02-02 20:52:27 - Application version is -1: true
+2026-02-02 20:52:27 - Getting all instance registry info from the eureka server
+2026-02-02 20:52:27 - The response status is 200
+2026-02-02 20:52:27 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:52:27 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:52:27 - Discovery Client initialized at timestamp 1770045747193 with initial instances count: 4
+2026-02-02 20:52:27 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:52:27 - Saw local status change event StatusChangeEvent [timestamp=1770045747195, current=UP, previous=STARTING]
+2026-02-02 20:52:27 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:52:27 - Started QuizServiceApplicationTests in 2.049 seconds (process running for 2.407)
+2026-02-02 20:52:27 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:52:27 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:52:27 - Initializing Servlet ''
+2026-02-02 20:52:27 - Completed initialization in 0 ms
+2026-02-02 20:52:27 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: (was java.lang.UnsupportedOperationException)]
+2026-02-02 20:52:27 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:52:27 - Initializing Servlet ''
+2026-02-02 20:52:27 - Completed initialization in 0 ms
+2026-02-02 20:52:27 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:52:27 - Initializing Servlet ''
+2026-02-02 20:52:27 - Completed initialization in 0 ms
+2026-02-02 20:52:27 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:52:27 - Initializing Servlet ''
+2026-02-02 20:52:27 - Completed initialization in 0 ms
+2026-02-02 20:52:27 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:52:27 - Saw local status change event StatusChangeEvent [timestamp=1770045747747, current=DOWN, previous=UP]
+2026-02-02 20:52:27 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:52:27 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:52:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:52:27 - quiz_db - Shutdown initiated...
+2026-02-02 20:52:27 - quiz_db - Shutdown completed.
+2026-02-02 20:52:27 - Shutting down DiscoveryClient ...
+2026-02-02 20:52:30 - Unregistering ...
+2026-02-02 20:52:30 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:52:30 - Completed shut down of DiscoveryClient
+2026-02-02 20:52:55 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - Re-registering apps/QUIZ-SERVICE
+2026-02-02 20:52:55 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:52:55 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:53:17 - Starting QuizServiceApplicationTests using Java 25 with PID 11169 (started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/quiz-service)
+2026-02-02 20:53:17 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 20:53:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 20:53:17 - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2026-02-02 20:53:17 - BeanFactory id=6e1ef647-7fdd-3216-8557-c0c4db363480
+2026-02-02 20:53:17 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-02-02 20:53:17 - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda/0x00003fc0013a9180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-02-02 20:53:17 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-02 20:53:17 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-02 20:53:17 - HHH000026: Second-level cache disabled
+2026-02-02 20:53:17 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 20:53:17 - quiz_db - Starting...
+2026-02-02 20:53:17 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e3900dc
+2026-02-02 20:53:17 - quiz_db - Start completed.
+2026-02-02 20:53:17 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 20:53:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 20:53:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:53:18 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 20:53:18 - 
+
+Using generated security password: b7e5c147-d9bb-4862-8428-4e49a07afc67
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-02 20:53:18 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76a86677, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b863b4, org.springframework.security.web.context.SecurityContextHolderFilter@6bbff652, org.springframework.security.web.header.HeaderWriterFilter@63661fc7, org.springframework.web.filter.CorsFilter@2524f9bf, org.springframework.security.web.authentication.logout.LogoutFilter@4582da06, com.capgi.filter.JwtAuthFilter@3677c508, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a495d88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45ea6c24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e2c8622, org.springframework.security.web.session.SessionManagementFilter@69c7fb94, org.springframework.security.web.access.ExceptionTranslationFilter@276b68af, org.springframework.security.web.access.intercept.AuthorizationFilter@6012bee8]
+2026-02-02 20:53:18 - Eureka HTTP Client uses RestTemplate.
+2026-02-02 20:53:18 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 20:53:18 - Setting initial instance status as: STARTING
+2026-02-02 20:53:18 - Initializing Eureka in region us-east-1
+2026-02-02 20:53:18 - Resolving eureka endpoints via configuration
+2026-02-02 20:53:18 - Disable delta property : false
+2026-02-02 20:53:18 - Single vip registry refresh property : null
+2026-02-02 20:53:18 - Force full registry fetch : false
+2026-02-02 20:53:18 - Application is null : false
+2026-02-02 20:53:18 - Registered Applications size is zero : true
+2026-02-02 20:53:18 - Application version is -1: true
+2026-02-02 20:53:18 - Getting all instance registry info from the eureka server
+2026-02-02 20:53:19 - The response status is 200
+2026-02-02 20:53:19 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 20:53:19 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 20:53:19 - Discovery Client initialized at timestamp 1770045799124 with initial instances count: 5
+2026-02-02 20:53:19 - Registering application QUIZ-SERVICE with eureka with status UP
+2026-02-02 20:53:19 - Saw local status change event StatusChangeEvent [timestamp=1770045799126, current=UP, previous=STARTING]
+2026-02-02 20:53:19 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:53:19 - Started QuizServiceApplicationTests in 2.196 seconds (process running for 2.551)
+2026-02-02 20:53:19 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:53:19 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:53:19 - Initializing Servlet ''
+2026-02-02 20:53:19 - Completed initialization in 0 ms
+2026-02-02 20:53:19 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:53:19 - Initializing Servlet ''
+2026-02-02 20:53:19 - Completed initialization in 0 ms
+2026-02-02 20:53:19 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:53:19 - Initializing Servlet ''
+2026-02-02 20:53:19 - Completed initialization in 0 ms
+2026-02-02 20:53:19 - Initializing Spring TestDispatcherServlet ''
+2026-02-02 20:53:19 - Initializing Servlet ''
+2026-02-02 20:53:19 - Completed initialization in 0 ms
+2026-02-02 20:53:19 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:53:19 - Saw local status change event StatusChangeEvent [timestamp=1770045799654, current=DOWN, previous=UP]
+2026-02-02 20:53:19 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:53:19 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:53:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:53:19 - quiz_db - Shutdown initiated...
+2026-02-02 20:53:19 - quiz_db - Shutdown completed.
+2026-02-02 20:53:19 - Shutting down DiscoveryClient ...
+2026-02-02 20:53:22 - Unregistering ...
+2026-02-02 20:53:22 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - deregister  status: 200
+2026-02-02 20:53:22 - Completed shut down of DiscoveryClient
+2026-02-02 20:53:24 - Resolving eureka endpoints via configuration
+2026-02-02 20:53:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - Re-registering apps/QUIZ-SERVICE
+2026-02-02 20:53:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:53:25 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:58:10 - Unregistering application QUIZ-SERVICE with eureka with status DOWN
+2026-02-02 20:58:10 - Saw local status change event StatusChangeEvent [timestamp=1770046090821, current=DOWN, previous=UP]
+2026-02-02 20:58:10 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081: registering service...
+2026-02-02 20:58:10 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - registration status: 204
+2026-02-02 20:58:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 20:58:21 - quiz_db - Shutdown initiated...
+2026-02-02 20:58:21 - quiz_db - Shutdown completed.
+2026-02-02 20:58:21 - Shutting down DiscoveryClient ...
+2026-02-02 20:58:24 - Resolving eureka endpoints via configuration
+2026-02-02 20:58:24 - Unregistering ...
+2026-02-02 20:58:24 - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/QUIZ-SERVICE/192.168.1.25:quiz-service:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/QUIZ-SERVICE/192.168.1.25:quiz-service:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1183)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1144)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1090)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:550)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+	at java.base/java.net.Socket.connect(Socket.java:659)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:184)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 37 more
+
+2026-02-02 20:58:24 - Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/QUIZ-SERVICE/192.168.1.25:quiz-service:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2026-02-02 20:58:24 - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/QUIZ-SERVICE/192.168.1.25:quiz-service:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/QUIZ-SERVICE/192.168.1.25:quiz-service:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1183)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1144)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1090)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+	at java.base/java.net.Socket.connect(Socket.java:659)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:184)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 38 more
+
+2026-02-02 20:58:24 - Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/QUIZ-SERVICE/192.168.1.25:quiz-service:8081": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2026-02-02 20:58:24 - DiscoveryClient_QUIZ-SERVICE/192.168.1.25:quiz-service:8081 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1183)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1144)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1090)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-02-02 20:58:24 - Completed shut down of DiscoveryClient

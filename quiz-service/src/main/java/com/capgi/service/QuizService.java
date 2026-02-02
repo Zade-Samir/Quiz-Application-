@@ -17,8 +17,18 @@ public interface QuizService {
 
 	Quiz publishQuiz(Long quizId);
 
-	Page<Quiz> getPublishedQuizzes(int page, int size);
+	Page<Quiz> getPublishedQuizzes(int page, int size, String category, String difficulty);
+
+	Page<Quiz> getAllQuizzes(int page, int size, Boolean published);
 
 	Quiz getQuizDetails(Long quizId);
+
+	Quiz updateQuiz(Long quizId, QuizRequest request);
+
+	void deleteQuiz(Long quizId);
+
+	Question updateQuestion(Long questionId, QuestionRequest request);
+
+	void deleteQuestion(Long questionId);
 
 }

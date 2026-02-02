@@ -21,25 +21,17 @@ public class Result {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long resultId;
-	
+
 	private Long quizId;
 	private Long userId;
 	private Integer score;
 	private Integer durationSecond;
 	private LocalDateTime takenAt;
+
+	// Denormalized fields for performance
+	private String username;
+	private String quizTitle;
+	private Integer totalQuestions;
+	private Integer correctAnswers;
+	private Integer incorrectAnswers;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
