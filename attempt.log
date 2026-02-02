@@ -1,0 +1,130 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.capgi:attempt-service >----------------------
+[INFO] Building attempt-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.2:run (default-cli) > test-compile @ attempt-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ attempt-service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ attempt-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ attempt-service ---
+[INFO] skip non existing resourceDirectory /Users/samirzade/Codes/QuizCaseStudy-Team/attempt-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ attempt-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by lombok.permit.Permit
+WARNING: Please consider reporting this to the maintainers of class lombok.permit.Permit
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] 
+[INFO] <<< spring-boot:4.0.2:run (default-cli) < test-compile @ attempt-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.2:run (default-cli) @ attempt-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.2)
+
+2026-02-02 13:38:15 - Starting AttemptServiceApplication using Java 25 with PID 55698 (/Users/samirzade/Codes/QuizCaseStudy-Team/attempt-service/target/classes started by samirzade in /Users/samirzade/Codes/QuizCaseStudy-Team/attempt-service)
+2026-02-02 13:38:15 - No active profile set, falling back to 1 default profile: "default"
+2026-02-02 13:38:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-02 13:38:16 - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2026-02-02 13:38:16 - BeanFactory id=7155ed31-a94e-302a-9b4d-b00aef33e82e
+2026-02-02 13:38:16 - Tomcat initialized with port 8083 (http)
+2026-02-02 13:38:16 - Starting service [Tomcat]
+2026-02-02 13:38:16 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-02 13:38:16 - Root WebApplicationContext: initialization completed in 662 ms
+2026-02-02 13:38:16 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-02 13:38:16 - HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-02 13:38:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-02 13:38:16 - quiz_db - Starting...
+2026-02-02 13:38:16 - quiz_db - Added connection com.mysql.cj.jdbc.ConnectionImpl@10f397d0
+2026-02-02 13:38:16 - quiz_db - Start completed.
+2026-02-02 13:38:16 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-02 13:38:16 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/quiz_db?createDatabaseIfNotExist=true&useSSL=false&serverTimeZone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: quiz_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-02 13:38:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-02 13:38:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 13:38:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-02 13:38:17 - Eureka HTTP Client uses RestClient.
+2026-02-02 13:38:17 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-02-02 13:38:17 - Setting initial instance status as: STARTING
+2026-02-02 13:38:17 - Initializing Eureka in region us-east-1
+2026-02-02 13:38:17 - Resolving eureka endpoints via configuration
+2026-02-02 13:38:17 - Disable delta property : false
+2026-02-02 13:38:17 - Single vip registry refresh property : null
+2026-02-02 13:38:17 - Force full registry fetch : false
+2026-02-02 13:38:17 - Application is null : false
+2026-02-02 13:38:17 - Registered Applications size is zero : true
+2026-02-02 13:38:17 - Application version is -1: true
+2026-02-02 13:38:17 - Getting all instance registry info from the eureka server
+2026-02-02 13:38:17 - The response status is 200
+2026-02-02 13:38:17 - Starting heartbeat executor: renew interval is: 30
+2026-02-02 13:38:17 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-02-02 13:38:17 - Discovery Client initialized at timestamp 1770019697430 with initial instances count: 0
+2026-02-02 13:38:17 - Registering application ATTEMPT-SERVICE with eureka with status UP
+2026-02-02 13:38:17 - Saw local status change event StatusChangeEvent [timestamp=1770019697432, current=UP, previous=STARTING]
+2026-02-02 13:38:17 - DiscoveryClient_ATTEMPT-SERVICE/192.168.1.25:attempt-service:8083: registering service...
+2026-02-02 13:38:17 - Tomcat started on port 8083 (http) with context path '/'
+2026-02-02 13:38:17 - Updating port to 8083
+2026-02-02 13:38:17 - Started AttemptServiceApplication in 1.902 seconds (process running for 2.231)
+2026-02-02 13:38:17 - DiscoveryClient_ATTEMPT-SERVICE/192.168.1.25:attempt-service:8083 - registration status: 204
+2026-02-02 13:38:47 - Disable delta property : false
+2026-02-02 13:38:47 - Single vip registry refresh property : null
+2026-02-02 13:38:47 - Force full registry fetch : false
+2026-02-02 13:38:47 - Application is null : false
+2026-02-02 13:38:47 - Registered Applications size is zero : true
+2026-02-02 13:38:47 - Application version is -1: false
+2026-02-02 13:38:47 - Getting all instance registry info from the eureka server
+2026-02-02 13:38:47 - The response status is 200
+2026-02-02 13:39:51 - Unregistering application ATTEMPT-SERVICE with eureka with status DOWN
+2026-02-02 13:39:51 - Saw local status change event StatusChangeEvent [timestamp=1770019791917, current=DOWN, previous=UP]
+2026-02-02 13:39:51 - DiscoveryClient_ATTEMPT-SERVICE/192.168.1.25:attempt-service:8083: registering service...
+2026-02-02 13:39:51 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-02 13:39:51 - DiscoveryClient_ATTEMPT-SERVICE/192.168.1.25:attempt-service:8083 - registration status: 204
+2026-02-02 13:39:53 - Graceful shutdown complete
+2026-02-02 13:39:53 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-02 13:39:53 - quiz_db - Shutdown initiated...
+2026-02-02 13:39:53 - quiz_db - Shutdown completed.
+2026-02-02 13:39:53 - Shutting down DiscoveryClient ...
+2026-02-02 13:39:56 - Unregistering ...
+2026-02-02 13:39:56 - DiscoveryClient_ATTEMPT-SERVICE/192.168.1.25:attempt-service:8083 - deregister  status: 200
+2026-02-02 13:39:56 - Completed shut down of DiscoveryClient
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:43 min
+[INFO] Finished at: 2026-02-02T13:39:56+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:4.0.2:run (default-cli) on project attempt-service: Process terminated with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
